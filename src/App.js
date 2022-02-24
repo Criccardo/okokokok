@@ -151,19 +151,20 @@ function set_state_facial(){
                             <span className="text-yellow-300">d</span>
                             <span className="text-green-500">e</span>
                             <span className="text-orange-500">l</span>
-                            <span className="text-blue-600">l</span>
-                            <span className="text-yellow-400">i</span></h2>
+                            <span className="text-blue-600">s</span></h2>
                           </Offcanvas.Title>
                           <ThemeButton onClick={themeToggler} style={{float:'right'}}>Switch Theme</ThemeButton>
                         </Offcanvas.Header>
+                        <hr></hr>
                         <Offcanvas.Body>
+                          
                           <Nav className="justify-items-center flex-grow-1 pe-3">
                             <Nav.Link as={Link} to="/ImageDetection"> 
                               <SelectButton 
                                 disabled={stateImageDetection}
                                 onClick={set_state_image_detection}
                               >
-                                image
+                                <strong>TRY</strong>
                               </SelectButton>
                             </Nav.Link>
                             <p>Image classifier (offline)</p>
@@ -173,7 +174,7 @@ function set_state_facial(){
                                 disabled={stateFacial} 
                                 onClick={set_state_facial}
                               >
-                                facial
+                                <strong>TRY</strong>
                               </SelectButton>
                             </Nav.Link>
                             <p>Real-time facial landmarks detection</p>
@@ -183,7 +184,7 @@ function set_state_facial(){
                                 disabled={stateBodypix} 
                                 onClick={set_state_bodypix} 
                               >
-                                bodypix
+                                <strong>TRY</strong>
                               </SelectButton  >
                             </Nav.Link>
                             <p>Real-time body segmentation</p>
@@ -193,7 +194,7 @@ function set_state_facial(){
                                 disabled={stateHandpose} 
                                 onClick={set_state_handpose}
                               >
-                                handpose
+                                <strong>TRY</strong>
                               </SelectButton  >
                             </Nav.Link>
                             <p>Real-time hanpose estimation</p>
@@ -203,7 +204,7 @@ function set_state_facial(){
                                 disabled={stateRealObject} 
                                 onClick={set_state_real_object}
                               >
-                                object
+                                <strong>TRY</strong>
                               </SelectButton  >
                             </Nav.Link>
                             <p>Real-time objects detection</p>

@@ -64,8 +64,8 @@ function AppHandpose() {
             right: 0,
             textAlign: "center",
             zindex: 9,
-            width: 420,
-            height: 350,
+            width: 640,
+            height: 480,
           }}
         />
 
@@ -79,8 +79,8 @@ function AppHandpose() {
             right: 0,
             textAlign: "center",
             zindex: 9,
-            width: 420,
-            height: 350,
+            width: 640,
+            height: 480,
           }}
         />
       </header>

@@ -16,7 +16,7 @@ function Header(){
               <span className="text-warning">A</span>
               <span className="text-success">M</span>
             </strong></h1>
-            <h6 style={{color: 'orange'}}><i>COMPUTER VISION EXPERIMENTS, WHAT DOES AI SEE?</i></h6>
+            <h6 style={{color: 'orange'}}> <i>COMPUTER VISION EXPERIMENTS, WHAT DOES AI SEE?</i></h6>
             <hr/>
           </div>
         </div>

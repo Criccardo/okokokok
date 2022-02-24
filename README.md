@@ -46,10 +46,11 @@ Le altre librerie sono le seguenti :
 - ``` npx install react-router-dom ```
 - ``` npx install react-webcam ```
 - ``` npx install styled-components ```
+- ``` npx install @tensorflow/tfjs ```
 
 e se dovessero serivre, ci sono anche questi link utili in caso di errori o incomprensioni:
 
 -
 -
 
-# inserire i link #
+# inserire i link e script bootstrap#

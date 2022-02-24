@@ -8,7 +8,7 @@ Ho realizzato questa applicazione partendo da questa https://github.com/AGedu/ma
 - tutorial ufficiale di React -> https://reactjs.org/tutorial/tutorial.html
 - download Node.js ( con anche npm integrato ) -> https://nodejs.org/it/download/
 
-### Breve descrizione dell'applicazione
+### Breve descrizione dell'applicazione, da aggiungere i nuovi modelli per l'immagine e per l'object
 
 In origine l'applicazione permetteva la classificazione di immagini in modalità offline, e la classificazione di molteplici oggetti in tempo reale, utilizzando rispettivamente il modello [coco-ssd](https://www.npmjs.com/package/@tensorflow-models/coco-ssd "modello coco-ssd") e il modello [mobilenetV1](https://www.npmjs.com/package/@tensorflow-models/mobilenet "modello mobilenetV1"). Ho aggiunto 3 modelli, tutti funzionanti in modalità real time, e sono:
 - [body-pix](https://www.npmjs.com/package/@tensorflow-models/body-pix "modello body-pix"), per la segmentazione del corpo

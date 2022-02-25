@@ -15,7 +15,11 @@ const DetectorContainer = styled.div`
   margin-top: 2em;  
   min-width:250px;
   height: 300px;
+<<<<<<< HEAD
   border: 3px solid #093d91;
+=======
+  border: 3px solid #3d43eb;
+>>>>>>> 91a22db413b7b0162ffb94e2a5cd952d06f09bf5
   border-radius: 5px;
   display: flex;
   align-items: center;

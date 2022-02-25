@@ -11,7 +11,7 @@ import Header from './components/Header.js';
 import Footer from './components/Footer.js';
 import {Menu} from './menuBottoni.js';
 
-//theme
+//theme imports
 import {ThemeProvider} from "styled-components";
 import { GlobalStyles } from "./ThemeComponents/globalStyle";
 import { lightTheme, darkTheme } from "./ThemeComponents/Themes";

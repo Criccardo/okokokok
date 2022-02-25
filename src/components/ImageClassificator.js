@@ -15,7 +15,7 @@ const DetectorContainer = styled.div`
   margin-top: 2em;  
   min-width:250px;
   height: 300px;
-  border: 3px solid #fff;
+  border: 3px solid #093d91;
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -34,7 +34,7 @@ const HiddenFileInput = styled.input`
 const SelectButton = styled.button`
     padding: 7px 10px;
     border: 2px solid transparent;
-    background-color: #fff;
+    background-color: #4287f5;
     color: #0a0f22;
     font-size: 16px;
     font-weight: 500;

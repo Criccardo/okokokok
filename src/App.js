@@ -160,52 +160,92 @@ function set_state_facial(){
                           
                           <Nav className="justify-items-center flex-grow-1 pe-3">
                             <Nav.Link as={Link} to="/ImageDetection"> 
-                              <SelectButton 
-                                disabled={stateImageDetection}
-                                onClick={set_state_image_detection}
+                              <div
+                                style={{
+                                  display: "flex",
+                                  justifyContent: "center",
+                                  alignItems: "center"
+                                }} 
                               >
-                                <strong>TRY</strong>
-                              </SelectButton>
+                                <SelectButton 
+                                  disabled={stateImageDetection}
+                                  onClick={set_state_image_detection}
+                                >
+                                  <strong>TRY</strong>
+                                </SelectButton>
+                              </div>
                             </Nav.Link>
                             <p>Image classifier (offline)</p>
                             <hr></hr>
                             <Nav.Link as={Link} to="/FacialLandmark">
-                              <SelectButton  
-                                disabled={stateFacial} 
-                                onClick={set_state_facial}
+                              <div
+                                style={{
+                                  display: "flex",
+                                  justifyContent: "center",
+                                  alignItems: "center"
+                                }} 
                               >
-                                <strong>TRY</strong>
-                              </SelectButton>
+                                <SelectButton  
+                                  disabled={stateFacial} 
+                                  onClick={set_state_facial}
+                                >
+                                  <strong>TRY</strong>
+                                </SelectButton>
+                              </div>
                             </Nav.Link>
                             <p>Real-time facial landmarks detection</p>
                             <hr></hr>
                             <Nav.Link as={Link} to="/RealBodypix">
-                              <SelectButton 
-                                disabled={stateBodypix} 
-                                onClick={set_state_bodypix} 
+                              <div
+                                style={{
+                                  display: "flex",
+                                  justifyContent: "center",
+                                  alignItems: "center"
+                                }} 
                               >
-                                <strong>TRY</strong>
-                              </SelectButton  >
+                                <SelectButton 
+                                  disabled={stateBodypix} 
+                                  onClick={set_state_bodypix} 
+                                >
+                                  <strong>TRY</strong>
+                                </SelectButton>
+                              </div>
                             </Nav.Link>
                             <p>Real-time body segmentation</p>
                             <hr></hr>
                             <Nav.Link as={Link} to="/RealHandpose">
-                              <SelectButton 
-                                disabled={stateHandpose} 
-                                onClick={set_state_handpose}
+                              <div
+                                style={{
+                                  display: "flex",
+                                  justifyContent: "center",
+                                  alignItems: "center"
+                                }} 
                               >
-                                <strong>TRY</strong>
-                              </SelectButton  >
+                                <SelectButton 
+                                  disabled={stateHandpose} 
+                                  onClick={set_state_handpose}
+                                >
+                                  <strong>TRY</strong>
+                                </SelectButton>
+                              </div>
                             </Nav.Link>
                             <p>Real-time hanpose estimation</p>
                             <hr></hr>
                             <Nav.Link as={Link} to="/RealObject">
-                              <SelectButton 
-                                disabled={stateRealObject} 
-                                onClick={set_state_real_object}
+                              <div
+                                style={{
+                                  display: "flex",
+                                  justifyContent: "center",
+                                  alignItems: "center"
+                                }} 
                               >
-                                <strong>TRY</strong>
-                              </SelectButton  >
+                                <SelectButton 
+                                  disabled={stateRealObject} 
+                                  onClick={set_state_real_object}
+                                >
+                                  <strong>TRY</strong>
+                                </SelectButton>
+                              </div>
                             </Nav.Link>
                             <p>Real-time objects detection</p>
                           </Nav>
